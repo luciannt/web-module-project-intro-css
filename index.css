@@ -84,7 +84,7 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -126,4 +126,43 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+a {
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: pink;
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+nav {
+  text-align: center;
+}
+
+header {
+  text-align: right;
+}
+
+nav a.btn-left {
+  background-color: brown;
+}
+
+nav a.btn-center {
+  background-color: orange;
+}
+
+nav a.btn-right {
+  background-color: blue;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 1.5%;
+}
+
+h2 {
+  font-size: 25px;
 }
